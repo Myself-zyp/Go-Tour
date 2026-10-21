@@ -11,4 +11,7 @@ func Variables() {
 	var i int
 	var javaScript, rust = true, "no!"
 	fmt.Println(i, c, python, java, m, n, javaScript, rust)
+
+	k := 3
+	fmt.Println(k)
 }
